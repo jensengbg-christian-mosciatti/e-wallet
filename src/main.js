@@ -1,6 +1,9 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
+import Vuelidate from "vuelidate";
+console.log(Vuelidate);
+Vue.use(Vuelidate);
 
 Vue.config.productionTip = false;
 
