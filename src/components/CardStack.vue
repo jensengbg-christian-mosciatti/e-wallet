@@ -40,7 +40,14 @@ export default {
 <style scoped>
 .cards {
   margin-bottom: -12em;
+  transform-origin: 100% 100%;
+  transition: transform 1s;
 }
+.cards:hover,
+.cards:focus {
+  transform: rotateZ(5deg);
+}
+
 .card-cont {
   padding-bottom: 200px;
 }
